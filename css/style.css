@@ -46,6 +46,8 @@ img{
 }
 
 .header-menu a{
+  font-family: 'Poppins';
+  font-weight: 400;
   color: #ffffff;
   display: inline-block; /* por padrão o padding não vai funcionar totalmente certo quando os itens ficarem um em baixo do outro(responsividade), pois o elemento está definido como inline, por isso usamos inline-block*/
   padding: 16px 0px;
@@ -129,6 +131,8 @@ img{
 }
 
 .introducao h1{
+  font-family: 'Poppins';
+  font-weight: 600;
   margin-bottom: 32px;
   font-size: 64px;
   line-height: 1.125;
@@ -142,6 +146,8 @@ img{
 }
 
 .introducao a{
+  font-family: 'Poppins';
+  font-weight: 600;
   display: inline-block; /*para pegar as medidas de padding corretamente*/
   padding: 16px 32px;
   background: linear-gradient(#ffbb00, #d2a50c);
