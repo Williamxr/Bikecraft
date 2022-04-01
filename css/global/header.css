@@ -1,5 +1,5 @@
 .header-bg{
-  background-color: #000000;
+  background-color: var(--cor-12);
 }
 
 .header{
@@ -24,7 +24,6 @@
 .header-menu a{
   font-family: 'Poppins';
   font-weight: 400;
-  color: #ffffff;
   display: inline-block; /* por padrão o padding não vai funcionar totalmente certo quando os itens ficarem um em baixo do outro(responsividade), pois o elemento está definido como inline, por isso usamos inline-block*/
   padding: 16px 0px;
   font-size: 18px;
@@ -36,7 +35,7 @@
   display: block;
   height: 2px;
   width: 0px; /*para não mostrar nada ainda*/
-  background: #ffffff;
+  background: var(--cor-0);
   margin-top: 4px;
   transition: 0.3s; /*geralmente 0.3 é o valor ideal para transições*/
   position: absolute; /*como tenho 2px de height + 4px de margin, os elementos não vão ficar totalmente alinhados, por isso usamos position absolute e relative no pai, pois aí todos os elementos ficarão alinhados*/
@@ -51,12 +50,12 @@
     gap: 20px;
   }
   .header-menu a{
-    background-color: #111111;
+    background-color: var(--cor-11);
     padding: 12px 16px;
     border-radius: 4px;
   }
   .header-menu a:hover{
-    background: #2e2e2e;
+    background: var(--cor-10);
   }
   .header a::after{
     display: none;
