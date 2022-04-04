@@ -22,3 +22,7 @@ img{
   max-width: 100%;
   display: block;
 }
+
+img [src$=".jpg"]{
+  border-radius: 4px; /*toda img que tiver SRC e terminar com .JPG terá esse estilo*/
+}
