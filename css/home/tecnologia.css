@@ -1,0 +1,16 @@
+.tecnologia-bg{
+  background-color: var(--cor-11);
+}
+
+.tecnologia{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.tecnologia-imagem img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /*para a foto não ficar esmagada quando eu forço ela a ficar com height 100% do conteúdo*/
+  object-position: left; /*foto começa a ser cortada pela esquerda*/
+}
