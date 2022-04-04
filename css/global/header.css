@@ -22,11 +22,8 @@
 }
 
 .header-menu a{
-  font-family: 'Poppins';
-  font-weight: 400;
   display: inline-block; /* por padrão o padding não vai funcionar totalmente certo quando os itens ficarem um em baixo do outro(responsividade), pois o elemento está definido como inline, por isso usamos inline-block*/
   padding: 16px 0px;
-  font-size: 18px;
   position: relative;
 }
 
