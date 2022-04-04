@@ -8,11 +8,8 @@
   justify-content: space-between;
   align-items: center;
   gap: 20px; /*para o conteúdo não ficar grudado quando quebrar*/
-  padding: 20px;
-  box-sizing: border-box; /*faz com que o valor de max-width n some com meu padding*/
-  max-width: 1400px;
-  margin-left: auto; /*margin auto para caso o elemento passe do tamanho que defini para meu container(1200px), meu conteúdo fique centralizado*/
-  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .header-menu{
