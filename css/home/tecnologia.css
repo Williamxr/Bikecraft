@@ -1,5 +1,6 @@
 .tecnologia-bg{
   background-color: var(--cor-11);
+  box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0); /*sombra interna, 0 px pros lados e 120 cima/baixo (px negativo pois a sombra é para baixo*/
 }
 
 .tecnologia{
@@ -13,4 +14,9 @@
   height: 100%;
   object-fit: cover; /*para a foto não ficar esmagada quando eu forço ela a ficar com height 100% do conteúdo*/
   object-position: left; /*foto começa a ser cortada pela esquerda*/
+}
+
+.tecnologia-conteudo{
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
