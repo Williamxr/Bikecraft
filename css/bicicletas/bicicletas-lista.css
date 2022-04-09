@@ -17,6 +17,10 @@
   overflow-x: auto; /*como eu defini que meu elemento vai estourar o container, quando isso acontecer, o overflow cria uma barra de scroll para meu container (apenas no eixo x, por isso overflow-x)*/
 }
 
+#bicicleta .bicicletas-lista ul{
+  padding: 0px 0px 20px 0px;
+}
+
 .bicicletas-lista li{
   flex: 1;
   min-width: 280px;
