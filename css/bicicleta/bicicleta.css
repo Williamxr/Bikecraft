@@ -5,7 +5,7 @@
 .bicicleta{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: flex-start;
+  align-items: start;
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -19,7 +19,7 @@
 
 .bicicleta-imagens img{
   flex: 1;
-  min-width: 200px;
+  min-width: 200px; /*enquanto der para diminuir até 200px, ela irá diminuir*/
 }
 
 .bicicleta-imagens img:first-child{
@@ -34,7 +34,7 @@
   display: grid;
   grid-template-columns: max-content auto;
   align-items: center; /*como o texto está ocupando duas linhas, eu alinho meus itens ao centro para não expandirem*/
-  justify-content: start;
+  justify-items: start;
   gap: 8px 12px;
   margin-bottom: 40px;
 }
@@ -47,7 +47,7 @@
   display: flex;
   align-items: center;
   background-color: var(--cor-12);
-  gap: 12px;
+  gap: 8px;
   padding: 4px 8px;
   border-radius: 4px;
 }
@@ -72,7 +72,7 @@
 }
 
 .bicicleta-informacoes img{
-  max-width: 24px;
+  width: 24px;
   margin-bottom: 8px;
 }
 
@@ -110,8 +110,5 @@
   }
   .bicicleta-comprar{
     grid-template-columns: 1fr;
-  }
-  .bicicleta-comprar span{
-    max-width: 200px;
   }
 }
