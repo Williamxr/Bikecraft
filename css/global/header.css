@@ -35,7 +35,7 @@
   position: absolute; /*como tenho 2px de height + 4px de margin, os elementos não vão ficar totalmente alinhados, por isso usamos position absolute e relative no pai, pois aí todos os elementos ficarão alinhados*/
 }
 
-.header-menu a:hover::after{
+.header-menu a:hover::after, .header-menu a.ativo::after{
   width: 100%; /* para minha linha percorrer 100% do tamanho do meu <a>*/
 }
 
