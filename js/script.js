@@ -1,1 +1,16 @@
-console.log("cuasoj");
+const links = document.querySelectorAll(".header-menu a");
+
+
+function ativarLink(link){
+  
+const url = window.location.href;
+const href = link.href;
+
+console.log(url);
+console.log(href);
+if(url.includes(href)){
+  link.classList.add("ativo");
+  }
+}
+
+links.forEach(ativarLink);
