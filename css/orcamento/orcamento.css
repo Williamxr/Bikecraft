@@ -100,11 +100,11 @@
   pointer-events: none; /*vai tirar qualquer tipo de evento de ponto, qualquer tipo de clique*/
 }
 
-.orcament-conteudo{
+.orcamento-conteudo{
   display: none;
 }
 
-;.orcament-conteudo h2, .orcamento-dados h2:nth-of-type(n + 2){ /*selecionando apenas depois do segundo elemento*/
+.orcamento-conteudo h2, .orcamento-dados h2:nth-of-type(n + 2){ /*selecionando apenas depois do segundo elemento*/
   margin-top: 20px;
 }
 
